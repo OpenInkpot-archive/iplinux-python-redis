@@ -1,0 +1,16 @@
+Source: python-redis
+Section: host/debian
+Priority: optional
+Maintainer: Mikhail Gusarov <dottedmag@dottedmag.net>
+Build-Depends: debhelper (>= 7), python
+Build-Depends-Indep: python-support (>= 0.8)
+Standards-Version: 3.8.3
+
+Package: python-redis
+Architecture: all
+Depends: ${python:Depends}
+Provides: ${python:Provides}
+Description: Python interface to the Redis key-value store
+ Python interface to the Redis key-value store
+
+
